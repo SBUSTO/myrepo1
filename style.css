@@ -1,0 +1,43 @@
+* {
+   box-sizing: border-box;
+}
+
+nav {
+
+ }
+
+body {
+margin: 0;
+}
+
+.gallery { 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+max-width: 1400px;
+gap: 16px;
+padding: 20px 10px;
+
+}
+
+.gallery img {
+height: 300px;
+width: 100%;
+max-width: 350px;
+object-fit: cover;
+border: solid black 2px;
+}
+
+footer {
+
+}
+
+ .header {
+    text-transform: uppercase;
+    background-color: #0a0a23;
+    color: #fff;
+    text-align: center;
+    border: black solid 5px;
+    padding: 20px;
+ }
